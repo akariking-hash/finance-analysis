@@ -1,17 +1,6 @@
 {
   "buildCommand": "npm run build",
-  "devCommand": "npm run dev",
   "installCommand": "npm install",
   "framework": "nextjs",
-  "outputDirectory": ".next",
-  "env": [
-    "OPENDART_API_KEY",
-    "GEMINI_API_KEY"
-  ],
-  "regions": ["icn1"],
-  "functions": {
-    "api/**/*.ts": {
-      "maxDuration": 10
-    }
-  }
+  "outputDirectory": ".next"
 }
